@@ -20,3 +20,4 @@ const student2: Student = {
 }
 
 const studentsList: Array<Student> = [student1, student2];
+
