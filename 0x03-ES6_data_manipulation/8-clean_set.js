@@ -9,7 +9,7 @@ const cleanSet = (set, startString) => {
   }
 
   for (const item of set) {
-    if (item.startsWith(startString)) {
+    if (item && item.startsWith(startString)) {
       str.push(item.slice(startString.length));
     }
   }
