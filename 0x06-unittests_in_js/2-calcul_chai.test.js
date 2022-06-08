@@ -14,7 +14,7 @@ describe("Tests advanced calculateNumber function:", function(){
     })
     describe("Tests SUM function:", function(){
         it("Returns 6.", function(){
-            chai.expect(calculateNumber('SUM', 2.4, 4)).to.equal(6)
+            chai.expect(calculateNumber('SUM', 4, 2.4)).to.equal(6)
         })
     })
     describe("Tests SUBTRACT function:", function(){
