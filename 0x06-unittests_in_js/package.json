@@ -1,9 +1,18 @@
 {
 
   "scripts": {
+
     "test": "node ./node_modules/mocha/bin/mocha"
+
   },
+
   "dependencies": {
+
+    "chai": "^4.3.6",
+
     "mocha": "^10.0.0"
+
   }
+
 }
+
