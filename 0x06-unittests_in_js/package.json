@@ -1,7 +1,7 @@
 {
 
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "node ./node_modules/mocha/bin/mocha"
   },
   "dependencies": {
     "mocha": "^10.0.0"
